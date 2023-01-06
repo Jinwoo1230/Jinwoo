@@ -59,7 +59,6 @@ public class FileExam {
 	static void delAll(String path) {
 		//폴더내의 모든 파일 정보를 얻어냅니다.
 		File[] files = new File(path).listFiles();
-		///123546789
 		for(File f : files) {
 			//폴더 정보 얻기
 			if(f.isFile()) {
